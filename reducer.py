@@ -3,14 +3,13 @@
 import sys
 
 oldKey = None
-highestSale = 0
+numSales, totalSales = 0, 0
 
 # Loop around the data
 # It will be in the format key\tval
 # Where key is the store name, val is the sale amount
 #
-# All the sales for a particular store will be presented,
-# then the key will change and we'll be dealing with the next store
+# Output the total number of records and the sum of all the sales across all the stores
 
 for line in sys.stdin:
     data_mapped = line.strip().split("\t")
@@ -20,13 +19,7 @@ for line in sys.stdin:
 
     thisKey, thisSale = data_mapped
 
-    if oldKey and oldKey != thisKey:
-        print oldKey, "\t", highestSale
-        oldKey = thisKey;
-        highestSale = 0
+    numSales += 1
+    totalSales += float(thisSale)
 
-    oldKey = thisKey
-    highestSale = thisSale if float(thisSale) > float(highestSale) else highestSale
-
-if oldKey != None:
-    print oldKey, "\t", highestSale
+print 'Total number of sales is %s and total sales from all the stores is %s' % (str(numSales), str(totalSales),)
