@@ -18,8 +18,6 @@
 import sys
 import re
 
-from urlparse import urlparse
-
 p = re.compile(
     '([^ ]*) ([^ ]*) ([^ ]*) \[([^]]*)\] "([^"]*)" ([^ ]*) ([^ ]*)'
 )
@@ -31,11 +29,4 @@ for line in sys.stdin:
         continue
 
     h, l, u, t, r, s, b = m.groups()
-
-    # request string can be further splitted into method, path, query-string and protocol
-    try:
-        method, url, protocol = r.split()
-	parsed_url = urlparse(url)
-    except ValueError as e:
-	continue  # treated as web log anomaly, skip this line
-    print "{0}\t{1}".format(parsed_url.path, s)
+    print h

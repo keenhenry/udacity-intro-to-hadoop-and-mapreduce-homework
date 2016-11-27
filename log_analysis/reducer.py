@@ -2,29 +2,22 @@
 
 import sys
 
-prev_path = None
+prev_ip = None
 numHits = 0
 
 # Loop around the data
 # It will be in the format key\tval
-# Where key is the store name, val is the sale amount
+# Where key is the client ip address, val is the number of hits per ip address
 #
-# Output the total number of records and the sum of all the sales across all the stores
+# Output the total number of hits per ip address
 
 for line in sys.stdin:
 
-    log_entry = line.strip().split("\t")
-    if len(log_entry) != 2:
-        # Something has gone wrong. Skip this line.
-        continue
-
-    path, status = log_entry
-
-    if path != prev_path: # process to a new page
-        print '%s has %s hits' % (prev_path, str(numHits),)
+    ip = line.strip()
+    if prev_ip and ip != prev_ip: # process to a new ip address
+        print '{0}: {1}'.format(prev_ip, numHits)
         numHits = 0
-
     numHits += 1
-    prev_path = path
+    prev_ip = ip
 
-print '%s has %s hits' % (prev_path, str(numHits),)
+print '{0}: {1}'.format(prev_ip, numHits)
