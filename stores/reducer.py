@@ -1,15 +1,16 @@
 #!/usr/bin/python
 
 import sys
+from collections import defaultdict
 
-oldKey = None
-numSales, totalSales = 0, 0
+sales_per_weekday = defaultdict(float)
+num_sales_per_weekday = defaultdict(int)
 
 # Loop around the data
 # It will be in the format key\tval
-# Where key is the store name, val is the sale amount
+# Where key is the weekday name, val is the sale amount
 #
-# Output the total number of records and the sum of all the sales across all the stores
+# Output the average sales for each weekday
 
 for line in sys.stdin:
     data_mapped = line.strip().split("\t")
@@ -17,9 +18,10 @@ for line in sys.stdin:
         # Something has gone wrong. Skip this line.
         continue
 
-    thisKey, thisSale = data_mapped
+    weekday, cost = data_mapped
+    sales_per_weekday[weekday] += float(cost)
+    num_sales_per_weekday[weekday] += 1
 
-    numSales += 1
-    totalSales += float(thisSale)
-
-print 'Total number of sales is %s and total sales from all the stores is %s' % (str(numSales), str(totalSales),)
+# print out the results
+for day in sales_per_weekday:
+    print 'Averate sale for {day}: {sale}'.format(day=day, sale=sales_per_weekday[day]/float(num_sales_per_weekday[day]))
