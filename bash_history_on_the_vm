@@ -1,0 +1,1000 @@
+git st
+git di
+git st
+git add .
+git st
+git ls
+git cm 'finished mapreduce implementation of finding the most popular path from web server access log'
+git st
+git br
+git ls -10
+git co master
+git br
+exit
+ifconfig 
+sudo shutdown -P now
+ls
+uname 
+uname --help
+uname -a
+clear
+uname -a
+cat /etc/inittab 
+vim /etc/inittab 
+man upstart
+sudo shutdown -P now 
+which vim
+vim --version
+vim --version | grep python
+vim --version | grep ruby
+vim --version | grep clipboard
+cat /etc/redhat-release 
+#sudo yum install vim-enhanced
+gnome2
+sudo shutdown -P now
+clear
+ls
+cd udacity_training/
+ls
+cd data/
+ls
+tart zxvf forum_data.tar.gz 
+tar zxvf forum_data.tar.gz 
+ls
+vim forum_node.tsv 
+vim forum_users.tsv 
+vim forum_node.tsv 
+ls
+cd ..
+ls
+cd code/
+ls
+git st
+mkdir inverted_index
+ls
+cd inverted_index/
+ls
+git st
+cp ../log_analysis/* .
+clear
+ls
+vim mapper.py 
+head -100 ../../data/forum_node.tsv > testfile 
+ls
+vim testfile 
+cat testfile | ./mapper.py 
+exit
+cd -
+ls
+cd udacity_training/
+ls
+cd code/
+ls
+cd inverted_index/
+ls
+vim testfile 
+vim mapper.py 
+ls
+vim mapper.py 
+cat testfile | ./mapper.py 
+cat testfile | ./mapper.py | less
+clear
+ls
+vim mapper.py 
+cat testfile | ./mapper.py 
+vim mapper.py 
+cat testfile | ./mapper.py 
+tail -4 testfile 
+cd ..
+ls
+cd so
+cd stores/
+ls
+vim mapper.py 
+cd ../inverted_index/
+ls
+vim mapper.py 
+cat testfile | ./mapper.py 
+vim mapper.py 
+cat testfile | ./mapper.py 
+vim mapper.py 
+exit
+ls
+ifconfig 
+ls
+cd udacity_training
+ls
+cd data/
+ls
+readlink -f .
+ls -lrt
+ls
+sudo shutdown -P now
+man ifconfig
+ip addr
+ip
+ip addr
+ip link
+ifconfig 
+clear
+ls
+cd udacity_training/
+ls
+cd code/
+ls
+cd inverted_index/
+ls
+cat testfile 
+cat testfile | ./mapper.py 
+clear
+cat testfile | ./mapper.py 
+ifconfig 
+sudo shutdown -r now
+clear
+ls
+cd udacity_training/
+sl
+ls
+cd code/
+ls
+cd inverted_index/
+ls
+clear
+ls
+vim mapper.py 
+cat testfile | ./mapper.py 
+vim mapper.py 
+ls
+cd udacity_training/
+ls
+cd code/
+ls
+cd inverted_index/
+ls
+vim mapper.py 
+exit
+ifconfig 
+sudo shutdown -P now
+ls
+cd udacity_training/
+ls
+cd code/
+ls
+cd inverted_index/
+ls
+vim mapper.py 
+cat testfile | ./mapper.py 
+vim mapper.py 
+clear
+cat testfile | ./mapper.py 
+vim mapper.py 
+cat testfile | ./mapper.py 
+vim mapper.py 
+cat testfile | ./mapper.py 
+vim mapper.py 
+cat testfile | ./mapper.py 
+vim mapper.py 
+cat testfile | ./mapper.py 
+vim mapper.py 
+cat testfile | ./mapper.py 
+vim mapper.py 
+clear
+cat testfile | ./mapper.py 
+vim mapper.py 
+exit
+ls
+cd udacity_training/
+ls
+cd code/
+ls
+cd inverted_index/
+ls
+vim mapper.py 
+cat testfile | grep ./mapper.py 
+vim mapper.py 
+cat testfile | grep ./mapper.py 
+vim mapper.py 
+cat testfile | ./mapper.py 
+vim mapper.py 
+cat testfile | ./mapper.py 
+vim mapper.py 
+cat testfile | ./mapper.py 
+vim mapper.py 
+cat testfile | ./mapper.py 
+ls
+vim mapper.py 
+ls
+cd ..
+ls
+cd log_analysis/
+ls
+vim mapper.py 
+cd ..
+ls
+cd stores/
+ls
+vim mapper.py 
+vim reducer.py 
+cd ..
+ls
+cd inverted_index/
+ls
+vim mapper.py 
+cat testfile | ./mapper.py 
+vim mapper.py 
+cat testfile | ./mapper.py 
+clear
+ls
+vim reducer.py 
+exit
+cd udacity_training/code/
+ls
+cd inverted_index/
+ls
+vim mapper.py 
+ls
+cat testfile | ./mapper.py | ./reducer.py 
+cat testfile | ./mapper.py 
+cat testfile | ./mapper.py | less
+ls
+vim testfile 
+vim mapper.py 
+cat testfile | ./mapper.py | less
+vim mapper.py 
+vim reducer.py 
+cat testfile | ./mapper.py | less
+cat testfile | ./mapper.py | ./reducer.py 
+cat testfile | ./mapper.py | less
+vim reducer.py 
+cat testfile | ./mapper.py | less
+cat testfile | ./mapper.py | ./reducer.py 
+vim reducer.py 
+cat testfile | ./mapper.py | ./reducer.py 
+vim reducer.py 
+cat testfile | ./mapper.py | ./reducer.py 
+vim reducer.py 
+cat testfile | ./mapper.py | ./reducer.py 
+vim reducer.py 
+history | grep hs
+#ls ../../data/
+hadoop fs ls
+hadoop fs -ls
+hadoop fs -help
+#hadoop fs -mkdir
+hadoop fs -ls
+hadoop fs -ls weblog
+hadoop fs -mkdir forum
+hadoop fs -ls 
+hadoop fs -put ../../data/forum_*.tsv forum
+hadoop fs -ls
+hadoop fs -ls forum/
+history | grep hs
+#hs mapper.py reducer.py forum
+vim testfile 
+head -20 ../../data/forum_node.tsv 
+hs mapper.py reducer.py forum/forum_node.tsv o_inverted_index
+hadoop fs -ls o_inverted_index
+hadoop fs -cat o_inverted_index/o_inverted_index/part-00000
+hadoop fs -ls o_inverted_index/o_inverted_index/part-00000
+hadoop fs -ls o_inverted_index/part-00000
+hadoop fs -cat o_inverted_index/part-00000
+#hadoop fs -cat o_inverted_index/part-00000 | grep 
+clear
+hadoop fs -cat o_inverted_index/part-00000 | grep fantastic
+git st
+vim ~/.gitconfig 
+clear
+ls
+cd ..
+git st
+ls
+cd code/
+git st
+git add inverted_index/
+git st
+git di --cached
+clear
+ls
+git st
+vim inverted_index/mapper.py
+vim inverted_index/reducer.py
+git cm 'completed the mapreduce program for inverted index of words in the forum problem'
+git st
+git di
+clear
+git help amend
+git st
+git add .
+git commit --amend
+git st
+git ls -10
+clear
+git ls --stat
+git log --stat
+clear
+exit
+ifconfig 
+ls
+ifconfig 
+ls
+sudo shutdown -P now
+ls
+cd udacity_training/
+ls
+cd data/
+ls
+ls -lrth
+head purchases.txt 
+clear
+ls
+cd ..
+ls
+cd code/
+ls
+clear
+ls
+cd stores/
+ls
+cat testfile 
+ls
+vim mapper.py 
+ls
+cd ..
+ls
+cd stores/
+ls
+git ls -10
+git br
+git ls -20
+git ls num-occurrences-per-path
+clear
+ls
+vim mapper.py 
+vim reducer.py 
+ls
+cat testfile | ./mapper.py 
+clear
+cat testfile | ./mapper.py | ./reducer.py 
+vim reducer.py 
+cat testfile | ./mapper.py | ./reducer.py 
+vim testfile 
+vim reducer.py 
+ls
+git st
+git di
+clear
+history | grep hs
+hadoop fs -ls 
+hadoop fs -ls myinput
+hs mapper.py reducer.py myinput o_average_sales_per_weekday
+hadoop fs -ls
+hadoop fs -lso_average_sales_per_weekday
+hadoop fs -ls o_average_sales_per_weekday
+hadoop fs -cat o_average_sales_per_weekday/part-00000
+ls
+vim mapper.py 
+vim reducer.py 
+cat testfile | ./mapper.py | ./reducer.py 
+vim testfile 
+#hs mapper.py reducer.py myinput o_average_sales_per_weekday
+hadoop fs -ls
+hadoop fs -rm -r o_average_sales_per_weekday
+hadoop fs -ls
+hs mapper.py reducer.py myinput o_average_sales_per_weekday
+hadoop fs -cat o_average_sales_per_weekday/part-00000
+cd
+clear
+vim .bashrc 
+. .bashrc 
+clear
+vim .bashrc 
+ls
+cd udacity_training/
+ls
+cd code/
+ls
+cd stores/
+ls
+vim mapper.py 
+vim reducer.py 
+git st
+git di
+git add .
+git st
+#git cm ''
+git ls 
+git cm 'mapreduce implementation for finding the mean sales for each weekday without combiner'
+git st
+clear
+ls
+vim reducer.py 
+cat testfile | ./mapper.py 
+cat testfile | ./mapper.py | ./reducer.py 
+hsc mapper.py reducer.py myinput o_total_sales_per_weekday_with_combiner
+hadoop fs -ls o_total_sales_per_weekday_with_combiner
+hadoop fs -cat o_total_sales_per_weekday_with_combiner/part-00000
+git st
+git di
+git st
+git add .
+git st
+git cm 'reducer implementation also suited for use by both the combiner and reducer'
+git st
+git ls -10
+git br
+clear
+exit
+ifconfig 
+sudo shutdown -P now
+ls
+cd udacity_training/
+ls
+ls data/
+ls
+cd data/
+ls
+clear
+ls
+vim forum_users.tsv 
+cd ..
+ls
+cd code/
+ls
+mkdir join_data_sets
+cd join_data_sets/
+ls
+ls ../
+ls -lrt ../
+ls -lrt ../inverted_index/*.py .
+cp ../inverted_index/*.py .
+ls
+head -120 ../../data/forum_node.tsv > forum_node.tsv
+head -120 ../../data/forum_users.tsv > forum_users.tsv
+clear
+ls -lrt
+vim forum_node.tsv 
+vim forum_users.tsv 
+vim mapper.py 
+clear
+exit
+ifconfig 
+sudo shutdown -P now
+ls
+cd udacity_training/
+ls
+cd code/
+ls
+cd join_data_sets/
+ls
+vim mapper.py 
+cat forum_users.tsv | ./mapper.py 
+vim mapper.py 
+cat forum_users.tsv | ./mapper.py 
+cat forum_node.tsv | ./mapper.py 
+vim mapper.py 
+cat forum_node.tsv | ./mapper.py 
+vim mapper.py 
+cat forum_users.tsv | ./mapper.py 
+vim mapper.py 
+ls
+cat forum_users.tsv 
+cat forum_users.tsv | ./mapper.py 
+vim mapper.py 
+cat forum_users.tsv | ./mapper.py 
+vim mapper.py 
+cat forum_users.tsv | ./mapper.py 
+vim mapper.py 
+cat forum_users.tsv | ./mapper.py 
+vim mapper.py 
+cat forum_users.tsv | ./mapper.py 
+vim mapper.py 
+cat forum_users.tsv | ./mapper.py 
+vim mapper.py 
+cat forum_users.tsv | ./mapper.py 
+vim mapper.py 
+cat forum_node.tsv | ./mapper.py 
+vim mapper.py 
+cat forum_node.tsv | ./mapper.py | less
+vim mapper.py 
+clear
+cat forum_node.tsv | ./mapper.py 
+vim mapper.py 
+cat forum_node.tsv | ./mapper.py 
+cat forum_users.tsv | ./mapper.py 
+cat forum_node.tsv | ./mapper.py | less
+vim mapper.py 
+cat forum_node.tsv | ./mapper.py | less
+vim mapper.py 
+cat forum_node.tsv | ./mapper.py | less
+clear
+vim mapper.py 
+cat mapper.py 
+vim reducer.py 
+exit
+ls
+cd udacity_training/
+ls
+cd code/
+ls
+cd join_data_sets/
+ls
+cat forum_node.tsv | ./mapper.py 
+cat forum_node.tsv | ./mapper.py | ./reducer.py 
+vim mapper.py 
+vim reducer.py 
+history | grep hs
+history | grep forum
+hadoop fs -ls
+hadoop fs -rm -r o_combined_dataset
+hs mapper.py reducer.py forum_inputs o_combined_dataset
+hadoop fs -ls
+hadoop fs -ls o_combined_dataset
+hadoop fs -cat o_combined_dataset/part-00000 | less
+hadoop fs -cat o_combined_dataset/part-00000
+vim reducer.py 
+cat reducer.py 
+vim reducer.py 
+git st
+ls
+git st
+cd ..
+git st
+cd join_data_sets/
+ls
+git st
+git add .
+git st
+git cm 'first implementation of joining datasets exercise; still not 100% correct, but it does combine data.'
+git st
+git ls
+vim mapper.py 
+ls
+cat forum_node.tsv | ./mapper.py 
+exit
+ifconfig 
+sudo shutdown -P now
+ls
+cd udacity_training/
+ls
+cd code/
+ls
+cd join_data_sets/
+ls
+vim reducer.py 
+cat forum_*.tsv | ./mapper.py | sort
+cat forum_*.tsv | ./mapper.py | sort -f1
+cat forum_*.tsv | ./mapper.py 
+vim mapper.py 
+cat forum_node.tsv | ./mapper.py | less
+vim mapper.py 
+cat forum_node.tsv | ./mapper.py | less
+cat forum_node.tsv | ./mapper.py | sort
+cat forum_*.tsv | ./mapper.py | sort
+less forum_users.tsv 
+cat forum_users.tsv | ./mapper.py
+cat forum_*.tsv 
+cat forum_*.tsv | sort
+cat forum_*.tsv | ./mapper.py
+vim mapper.py 
+cat forum_users.tsv | ./mapper.py | cat forum_node.tsv | ./mapper.py | sort
+cat forum_users.tsv | ./mapper.py | cat forum_node.tsv | ./mapper.py 
+cat forum_users.tsv | ./mapper.py 
+cat forum_node.tsv | ./mapper.py | cat forum_users.tsv | ./mapper.py 
+cat forum_node.tsv | ./mapper.py || cat forum_users.tsv | ./mapper.py 
+cat forum_*.tsv
+cat forum_*.tsv | ./mapper.py 
+cat forum_*.tsv | ./mapper.py | sort
+vim mapper.py 
+ls
+hadoop fs -ls
+hadoop fs -ls myinput
+hadoop fs -mkdir forum_inputs
+hadoop fs -put ../../data/forum_*.tsv forum_inputs
+hadoop fs -ls forum_inputs
+#hsc mapper.py reducer.py myinput o_total_sales_per_weekday_with_combiner
+history | grep hs
+hs mapper.py reducer.py forum_inputs o_combined_dataset
+hadoop fs -ls
+hadoop fs -ls o_combined_dataset
+hadoop fs -cat o_combined_dataset/_logs
+hadoop fs -ls o_combined_dataset/_logs/
+hadoop fs -ls o_combined_dataset/_logs/history
+#hadoop fs -ls o_combined_dataset/_logs/history
+ls
+vim mapper.py 
+vim reducer.py 
+ls
+cat reducer.py 
+cd udacity_training/
+ls
+mkdir final_project
+ls
+mv student_test_posts.csv final_project/
+ls
+cd final_project/
+ls
+clear
+ls
+vim student_test_posts.csv 
+clear
+ls
+vim student_test_posts.csv 
+ls
+cp ../code/join_data_sets/*.py . 
+ls
+vim mapper.py 
+vim student_test_posts.csv 
+vim mapper.py 
+exit
+ifconfig 
+ls
+mv student_test_posts.csv udacity_training/
+ls
+cd udacity_training/
+ls
+sudo shutdown -P now
+clear
+ls
+cd udacity_training/
+ls
+cd final_project/
+ls
+vim student_test_posts.csv 
+vim mapper.py 
+git st
+vim mapper.py 
+cat student_test_posts.csv | grep ./mapper.py 
+cat student_test_posts.csv | ./mapper.py 
+vim mapper.py 
+cd ..
+ls
+cd code/
+ls
+git st
+git grep -in datetime *
+vim stores/mapper.py:17
+vim stores/mapper.py
+cd ..
+ls
+cd final_project/
+ls
+vim student_test_posts.csv 
+ls
+vim mapper.py 
+cat student_test_posts.csv | ./mapper.py 
+vim mapper.py 
+cat student_test_posts.csv | ./mapper.py 
+clear
+ls
+cd ..
+ls
+cd code
+ls
+ls -lrt
+cd join_data_sets/
+ls
+vim mapper.py 
+ls
+cd ..
+git st
+clear
+git ls
+git show 776a70b
+ls
+cd ../
+ls
+cd final_project/
+ls
+clear
+ls
+vim mapper.py 
+cd ..
+ls
+cd code/
+ls
+ls -lrt
+cd stores/
+ls
+vim mapper.py 
+cd ..
+ls
+cd join_data_sets/
+ls
+vim mapper.py 
+cd ..
+ls
+cd ..
+ls
+cd final_project/
+ls
+vim mapper.py 
+cat student_test_posts.csv | ./mapper.py 
+vim mapper.py 
+cat student_test_posts.csv | ./mapper.py 
+vim mapper.py 
+vim reducer.py 
+cat student_test_posts.csv | ./mapper.py 
+cat student_test_posts.csv | ./mapper.py | ./reducer.py 
+vim reducer.py 
+cat student_test_posts.csv | ./mapper.py 
+cat student_test_posts.csv | ./mapper.py | ./reducer.py 
+vim reducer.py 
+cat student_test_posts.csv | ./mapper.py | sort 
+cat student_test_posts.csv | ./mapper.py | sort | ./reducer.py 
+vim reducer.py 
+cat student_test_posts.csv | ./mapper.py | sort | ./reducer.py 
+vim reducer.py 
+cat student_test_posts.csv | ./mapper.py | sort | ./reducer.py 
+vim reducer.py 
+cat student_test_posts.csv | ./mapper.py | sort | ./reducer.py 
+vim reducer.py 
+cat student_test_posts.csv | ./mapper.py | sort | ./reducer.py 
+vim reducer.py 
+cat student_test_posts.csv | ./mapper.py | sort | ./reducer.py 
+vim reducer.py 
+cat student_test_posts.csv | ./mapper.py | sort | ./reducer.py 
+vim reducer.py 
+cat student_test_posts.csv | ./mapper.py | sort | ./reducer.py 
+vim reducer.py 
+cat student_test_posts.csv | ./mapper.py | sort | ./reducer.py 
+vim reducer.py 
+cat student_test_posts.csv | ./mapper.py | sort | ./reducer.py 
+vim reducer.py 
+cat student_test_posts.csv | ./mapper.py | sort | ./reducer.py 
+vim reducer.py 
+cat student_test_posts.csv | ./mapper.py | sort | ./reducer.py 
+vim reducer.py 
+cat student_test_posts.csv | ./mapper.py | sort | ./reducer.py 
+vim reducer.py 
+cat student_test_posts.csv | ./mapper.py | sort | ./reducer.py 
+cat student_test_posts.csv | ./mapper.py | sort 
+vim reducer.py 
+cat student_test_posts.csv | ./mapper.py | sort 
+cat student_test_posts.csv | ./mapper.py | sort | ./reducer.py 
+vim reducer.py 
+clear
+cat student_test_posts.csv | ./mapper.py | sort | ./reducer.py 
+cat student_test_posts.csv | ./mapper.py | sort 
+vim reducer.py 
+cat student_test_posts.csv | ./mapper.py | sort 
+cat student_test_posts.csv | ./mapper.py | sort | ./reducer.py 
+vim reducer.py 
+cat student_test_posts.csv | ./mapper.py | sort | ./reducer.py 
+vim reducer.py 
+cat student_test_posts.csv | ./mapper.py | sort | ./reducer.py 
+vim reducer.py 
+cat student_test_posts.csv | ./mapper.py | sort | ./reducer.py 
+vim reducer.py 
+cat student_test_posts.csv | ./mapper.py | sort | ./reducer.py 
+vim reducer.py 
+cat student_test_posts.csv | ./mapper.py | sort | ./reducer.py 
+vim reducer.py 
+cat student_test_posts.csv | ./mapper.py | sort | ./reducer.py 
+vim reducer.py 
+cat student_test_posts.csv | ./mapper.py | sort | ./reducer.py 
+vim reducer.py 
+cat student_test_posts.csv | ./mapper.py | sort | ./reducer.py 
+ls
+cat mapper.py 
+ls
+cat reducer.py 
+clear
+git st
+ls
+git init .
+git st
+git add .
+git st
+git cm 'implemented mapreducer solution for student times exercise in final project'
+git st
+clear
+git ls
+exit
+ifconfig 
+sudo shutdown -P now
+ls
+cd udacity_training/
+ls
+cd final_project/
+ls
+git st
+git ls
+ls
+vim mapper.py 
+vim reducer.py 
+ls
+git show
+clear
+ls
+vim mapper.py 
+cat student_test_posts.csv | ./mapper.py 
+cat student_test_posts.csv | ./mapper.py | sort
+ls
+vim reducer.py 
+cat student_test_posts.csv | ./mapper.py | sort | ./reducer.py 
+vim reducer.py 
+cat student_test_posts.csv | ./mapper.py | sort | ./reducer.py 
+vim reducer.py 
+cat student_test_posts.csv | ./mapper.py | sort | ./reducer.py 
+ls
+cat mapper.py 
+vim mapper.py 
+cat mapper.py 
+ls
+cat reducer.py 
+git st
+git di
+git add .
+git st
+git cm 'implemented the mapreduce solution for finding top 10 tags in the forum'
+git st
+git ls
+cd ..
+ls
+cd code/
+ls
+cd log_analysis/
+git st
+git ls
+git ls -Sheapq
+cd ..
+ls
+cd stores/
+ls
+git ls -Sheapq
+cd ..
+ls
+cd ..
+ls
+cd final_project/
+ls
+git ls -Sheapq
+clear
+git st
+git ls
+ls
+vim mapper.py 
+clear
+git st
+exit
+ls
+cd udacity_training/
+ls
+cd final_project/
+ls
+vim student_test_posts.csv 
+ls
+cd ..
+ls
+cd code/
+ls
+cd inverted_index/
+ls
+clear
+cd ..
+ls
+git st
+git ls 
+git show 225b5e5
+ifconfig 
+cd ..
+cd -
+ls
+git ls -Sheap
+git ls -Sheapq
+git ls -sheap
+git help log
+git ls -Sheapq
+git ls -S heap
+git ls
+git grep -in heap *
+ls
+cd log_analysis/
+ls
+cd ..
+ls
+cd ..
+ls
+cd code/
+ls
+cd inverted_index/
+ls
+git ls -Sheap
+vim mapper.py 
+vim reducer.py 
+cd ..
+ls
+sudo shutdown -P now
+ifconfig 
+cat /etc/sysconfig/network
+cat /etc/sysconfig/network-scripts/ifcfg-lo 
+ps -ef | grep -i network
+iptables -l
+
+ps -ef | grep -i ssh
+cat /etc/sysconfig/sshd 
+sudo cat /etc/sysconfig/sshd 
+sudo vim /etc/sysconfig/sshd 
+sudo poweroff 
+ifconfig 
+sudo poweroff
+ls
+cd udacity_training/
+ls
+cd final_project/
+ls
+git ls
+vim mapper.py 
+ls
+vim student_test_posts.csv 
+git st
+vim mapper.py 
+ls
+cat student_test_posts.csv | ./mapper.py 
+vim mapper.py 
+cat student_test_posts.csv | ./mapper.py 
+vim mapper.py 
+cat student_test_posts.csv | ./mapper.py 
+vim mapper.py 
+cat student_test_posts.csv | ./mapper.py 
+vim mapper.py 
+cat student_test_posts.csv | ./mapper.py 
+vim mapper.py 
+cat student_test_posts.csv | ./mapper.py 
+cat student_test_posts.csv | ./mapper.py | sort
+vim mapper.py 
+clear
+ls
+vim reducer.py 
+cat student_test_posts.csv | ./mapper.py | sort
+cat student_test_posts.csv | ./mapper.py | sort | ./reducer.py 
+vim reducer.py 
+cat student_test_posts.csv | ./mapper.py | sort | ./reducer.py 
+vim reducer.py 
+cat student_test_posts.csv | ./mapper.py | sort | ./reducer.py 
+clear
+ls
+vim reducer.py 
+cat student_test_posts.csv | ./mapper.py | sort | ./reducer.py 
+ls
+cat mapper.py 
+cat reducer.py 
+clear
+git st
+git di
+vim mapper.py 
+git di
+vim mapper.py 
+git di
+cat student_test_posts.csv | ./mapper.py | sort | ./reducer.py 
+clear
+git st
+#git cam ''
+git ls -1
+git cam 'implemented the mapreduce solution for study group exercise'
+git st
+git ls
+clear
+ls
+cd ..
+ls
+cd code
+ls
+ls ../output/
+ls
+cd inverted_index/
+ls
+vim mapper.py 
+git ls
+cd ..
+ls
+cd ..
+ls
+cd final_project/
+ls
+vim student_test_posts.csv 
+git st
+cd ..
+exit
+ifconfig 
+poweroff
